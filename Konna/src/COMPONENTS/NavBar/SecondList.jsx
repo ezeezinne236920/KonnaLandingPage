@@ -6,7 +6,7 @@ import styles from './SecondList.module.css'
 const SecondList = () => {
   return (
     <>
-      <div className='hidden md:flex items-center grow-0   space-x-6 text-xs'>
+      <div className='hidden md:flex items-center grow-0 space-x-6 text-xs'>
         <a href='#name'>Login</a>
         <Card>
           <a href='#Register'>Register</a>

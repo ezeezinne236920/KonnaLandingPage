@@ -13,7 +13,7 @@ const NavBar = () => {
       <nav className='relative min-height-1/2 container mx-auto'>
         {/* flex container */}
         <div className='relative flex items-center justify-between pt-6 pb-4'>
-          <div className='grow-1 w-12 '>
+          <div className='grow-1 xs:w-1/10 translate-x-12 '>
             <Image />
           </div>
           <FirstList />
@@ -32,7 +32,7 @@ const NavBar = () => {
           {isOnMobile ? (
             ''
           ) : (
-            <div className='absolute top-8  flex flex-col items-center   py-3 mt-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md md:hidden '>
+            <div className='absolute top-8  flex flex-col items-center py-3 mt-6 font-bold sm:w-auto sm:self-center left-6 right-6 drop-shadow-md lg:hidden '>
               <MapSideNav className=' ' list={FirstListData} />
               {/* <a href=''>Features</a>
             <a href=''>Supported biz</a>

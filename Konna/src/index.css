@@ -23,25 +23,6 @@ nav {
 
 li {
   list-style: none;
-  position: relative;
 }
 
-.openFlex {
-  display: block;
-}
-@media (max-width: 390px) {
-  .closeGrid {
-    display: block;
-  }
-  .openGrid{
-    display: none;
-  }
-}
-@media (max-width: 976px) {
-  .openGrid {
-    display: block;
-  }
-  .closeGrid{
-    display: none;
-  }
-}
+ 

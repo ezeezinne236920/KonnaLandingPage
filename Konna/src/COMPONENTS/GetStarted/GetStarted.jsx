@@ -11,18 +11,20 @@ const GetStarted = () => {
     <div className='container mx-auto'>
       <div className='container mx-auto ml-3/20 mt-1/10 font-extrabold'>
         <p className='text-sm ml-2/5'>How it works</p>
-        <h1 className='text-2xl ml-8/25 mt-11'>HOW TO GET STARTED</h1>
+        <h1 className='sm:text-base xs:text-lg md:text-2xl ml-8/25 mt-11'>
+          HOW TO GET STARTED
+        </h1>
       </div>
-      <Grid className=' min-h-1/2 text-center'>
-        <Card className='bg-gray-800 w-4/5'>
-          <Flex className='space-x-6 mb-3'>
-            <div className='w-3/10'>
+      <Grid className='lg:grid-cols-4 min-h-[50%] text-center gap-4'>
+        <Card className='w-4/5 h-full container mx-auto bg-gray-800 mb-1'>
+          <div className='flex justify-between  mb-3'>
+            <div className='w-1/10'>
               <img src={Frame} alt='' />
             </div>
-            <Card className='text-sm translate-x-5'>
+            <Card className='text-sm w-3/20  '>
               <h1 className=''>step 1</h1>
             </Card>
-          </Flex>
+          </div>
           <h1 className='text-sm font-bold mx-auto pl-3'>
             Create a Konna Account
           </h1>
@@ -30,15 +32,15 @@ const GetStarted = () => {
             Create a Konna account as a new user or login as a registered user
           </p>
         </Card>
-        <Card className='bg-gray-800 w-4/5'>
-          <Flex className='space-x-6  mb-3'>
-            <div className='w-3/10'>
+        <Card className='bg-gray-800 w-4/5 h-full container mx-auto mb-1'>
+          <div className='flex justify-between  mb-3'>
+            <div className='w-1/10'>
               <img src={Capa} alt='' />
             </div>
-            <Card className='text-sm translate-x-5'>
+            <Card className='text-sm w-3/20 '>
               <h1 className=''>step 2</h1>
             </Card>
-          </Flex>
+          </div>
           <h1 className='text-sm font-bold mx-auto pl-3'>
             Add your Product to inventory
           </h1>
@@ -47,34 +49,33 @@ const GetStarted = () => {
             spcification
           </p>
         </Card>
-        <Card className='bg-gray-800 w-4/5'>
-          <Flex className='space-x-6 mb-3 '>
-            <div className='w-3/10'>
+        <Card className='bg-gray-800 w-4/5 h-full container mx-auto '>
+          <div className='flex justify-between  mb-3'>
+            <div className='w-1/10'>
               <img src={Layer} alt='' />
             </div>
-            <Card className='text-sm translate-x-5'>
+            <Card className='text-sm w-3/20'>
               <h1 className=''>step 3</h1>
             </Card>
-          </Flex>
+          </div>
           <h1 className='text-sm font-bold mx-auto pl-3'>Create your Store</h1>
           <p className='text-xxs text-gray-500 my-3'>
             Setup and customize your shop with logos, and banners, then add
             products from inventory
           </p>
         </Card>
-        <Card className='bg-gray-800 w-4/5'>
-          <Flex className='space-x-6  mb-3'>
-            <div className='w-3/10'>
+        <Card className='bg-gray-800 w-4/5 h-full container mx-auto '>
+          <div className='flex justify-between  mb-3'>
+            <div className='w-1/10'>
               <img src={Frame} alt='' />
             </div>
-            <Card className='text-sm translate-x-5'>
+            <Card className='text-sm  w-3/20'>
               <h1 className=''>step 4</h1>
             </Card>
-          </Flex>
+          </div>
           <h1 className='text-sm font-bold mx-auto pl-3'>Start Selling</h1>
           <p className='text-xxs text-gray-500 my-3'>
-            Share Your Store Link and start sellingShare Your Store Link and
-            start sellingShare Your Store Link and start selling
+            Share Your Store Link and start selling
           </p>
         </Card>
       </Grid>

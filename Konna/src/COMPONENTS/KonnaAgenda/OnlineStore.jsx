@@ -7,14 +7,14 @@ const OnlineStore = () => {
   return (
     <>
       <Flex className='container mx-auto mt-12 justify-between'>
-        <Card className=' flex-grow-0 rotate-360'>
-          <div className='translate-x-2 translate-y-4  '>
+        <div className='bg-blueCardBg rounded-t container mx-auto hflex-grow-0 mb-3 sm:w-3/5 md:w-full '>
+          <div className='sm:translate-y-4 md:translate-y-7/20 lg:translate-y-1/10'>
             <img src={ComponentImage} alt='' />
           </div>
-        </Card>
-        <div className=' flex-grow-1 flex flex-col space-y-9-items-center ml-1/10'>
+        </div>
+        <div className=' flex-grow-1 flex flex-col space-y-9-items-center ml-1/10 xs:mt-7 lg:mt-2'>
           <h2 className='text-sm text-blue-500 pb-6'>ONLINE STORE</h2>
-          <h2 className='text-xl font-bold'>
+          <h2 className='sm:text-base md:text-xl font-bold'>
             Your Own ONLINE STORE is Just a{' '}
             <span className='text-blue-500  '>Few Clicks Away</span>
           </h2>
@@ -23,9 +23,10 @@ const OnlineStore = () => {
             customers well without borders, accept payments in various forms and
             grow your business{' '}
           </p>
-          <Card className='text-blue-500  text-xs font-medium bg-gray-700 pb-9 w-3/5 h-px pl-1/5 pt-3'>
-            Create Online Shop
+          <Card className=' text-blue-500  text-xs font-medium bg-gray-700 text-center  w-3/5 mx-px pt-3 bg-transparent border '>
+            Start Selling Offline
           </Card>
+         
         </div>
       </Flex>
     </>

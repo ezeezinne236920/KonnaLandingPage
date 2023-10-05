@@ -2,12 +2,28 @@
 export default {
   content: ['./index.html', './src/**/*.{js,jsx,}'],
   theme: {
-    screens: { xs: '390px', sm: '480px', md: '768px', lg: '976px', xl: '1440px' },
+    screens: {
+      xs: '370px',
+      sm: '480px',
+      bg: '520px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    minHeight: {
+      '1/2': '50%',
+      '1/4': '25%',
+      '3/4': '75%',
+      '1/5': '20%',
+      '2/5': '40%',
+      '3/5': '60%',
+      '4/5': '80%',
+    },
     extend: {
       colors: { blueBgColor: '#020324', blueCardBg: '#0573f1' },
       spacing: {
         '2/25': '4%',
-       ' 3/20': '15%',
+        ' 3/20': '15%',
         '1/10': '10%',
         '3/10': '30%',
         '8/25': '32%',
@@ -30,6 +46,6 @@ export default {
     },
     //
     //
-  },                    
+  },
   plugins: [],
 }

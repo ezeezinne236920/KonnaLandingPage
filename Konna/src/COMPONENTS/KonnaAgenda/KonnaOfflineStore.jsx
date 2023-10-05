@@ -20,12 +20,12 @@ const KonnaOfflineStore = () => {
               will allow your:<p>1. Sell offline from all your stores</p>
               <p>2.Sync later when you find a connection</p>
             </p>
-            <Card className=' text-yellow-500  text-xs font-medium border-yellow-500 pb-9 w-3/5 h-px pl-1/5 pt-3 bg-transparent border '>
-              Create Online Shop
+            <Card className=' text-yellow-500  text-xs font-medium border-yellow-500 text-center  w-3/5 mx-px pt-3 bg-transparent border '>
+              Start Selling Offline
             </Card>
           </div>
 
-          <div className='ml-1/10'>
+          <div className='container mx-auto my-4 '>
             <img src={GroupImage} alt='' />
           </div>
         </Flex>
