@@ -7,8 +7,8 @@ const KonnaOfflineStore = () => {
   return (
     <>
       <div className='mx-auto bg-gray-800 w-screen pb-9  overflow-hidden my-1/10'>
-        <Flex className='container mx-auto mt-12 justify-between '>
-          <div className=' flex-grow-1 flex flex-col space-y-9-items-center'>
+        <Flex className='container mx-auto mt-12 justify-between items-center md:space-x-12 '>
+          <div className=' flex-grow-1 flex flex-col space-y-9 items-center'>
             <h2 className='text-sm text-yellow-500 pb-6'>OFFLINE SHOP</h2>
             <h2 className='text-xl font-bold'>
               Do you Know you Can{' '}

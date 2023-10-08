@@ -12,8 +12,8 @@ const NavBar = () => {
     <>
       <nav className='relative min-height-1/2 container mx-auto'>
         {/* flex container */}
-        <div className='relative flex items-center justify-between pt-6 pb-4'>
-          <div className='grow-1 xs:w-1/10 translate-x-12 '>
+        <div className='relative flex items-center h-19 xs:mx-4  justify-between py-4'>
+          <div className='xs:w-1/10 md:w-2/25 grow-0'>
             <Image />
           </div>
           <FirstList />

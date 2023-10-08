@@ -6,10 +6,14 @@ import styles from './SecondList.module.css'
 const SecondList = () => {
   return (
     <>
-      <div className='hidden md:flex items-center grow-0 space-x-6 text-xs'>
-        <a href='#name'>Login</a>
+      <div className='hidden md:flex items-center grow-1 space-x-6 text-xs'>
+        <a href='#name' className='text-xxs'>
+          Login
+        </a>
         <Card>
-          <a href='#Register'>Register</a>
+          <a href='#Register' className='text-xxs'>
+            Register
+          </a>
         </Card>
         <a
           href='#Download'
@@ -21,9 +25,9 @@ const SecondList = () => {
           </span>
         </a>
       </div>
-      <Card className='md:hidden w-1/5 mr-2'>
+      {/* <Card className='md:hidden w-1/5 mr-2'>
         <a href='#Register text-sm '>Register</a>
-      </Card>
+      </Card> */}
     </>
   )
 }

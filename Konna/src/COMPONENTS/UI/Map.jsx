@@ -1,14 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const Map = (props) => {
+  const [isOnMobile, setIsOnMobile] = useState(true)
   return (
-    <ul className='md:flex items-center space-x-9'>
+    <ul className='md:flex items-center space-x-6 grow-0 mr-10'>
       {props.list.map((item, index) => {
-        const { name, icons, title, desc } = item || {}
+        const { name, icons, icon, title, desc } = item || {}
         return (
           <li key={index}>
             <a href={`#${name.toLowerCase()}`} className='flex'>
-              {name} <span className='mt-0.5'>{icons}</span>
+              {name}{' '}
+              <span
+                className='mt-0.5'
+                onClick={(index) => {
+                  setIsOnMobile(!isOnMobile)
+                }}
+              >
+                {isOnMobile ? icons : icon}
+              </span>
             </a>
           </li>
         )

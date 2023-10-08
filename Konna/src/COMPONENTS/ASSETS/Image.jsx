@@ -15,9 +15,9 @@ export const Image = () => {
 
 export const GooglePlayStoreIcon = () => {
   return (
-    <div className='xs:hidden sm:block w-1/10 ml-4  lg:w-1/5 ml-px  xl:3/5'>
+    <>
       <img src={Googleps} alt='Google Playstore' />
-    </div>
+    </>
   )
 }
 export const AssetPicture = () => {

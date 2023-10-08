@@ -6,15 +6,18 @@ import KonnaOfflineStore from './KonnaOfflineStore'
 const KonnaAgenda = () => {
   return (
     <>
-      <div className=' container w-3/5 mx-auto  mt-1/5 font-extrabold sm:mt-1/10'>
-        <h1 className='sm:text-xl md:text-2xl mb-1/10  '>
+      <div className=' container w-4/5 mx-auto  items-center mt-1/5 font-extrabold sm:mt-1/10'>
+        <h1 className='sm:text-xl md:text-2xl mb-1/10 text-center '>
           What you can do on Konna
         </h1>
       </div>
-      <div className='container mx-auto '>
-        <Flex className='sm:flex justify-evenly item-center lg:space-x-10'>
+      <div
+        className='container mx-auto item-center
+      '
+      >
+        <Flex className='sm:flex justify-evenly  lg:space-x-10'>
           <div className='flex'>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -22,14 +25,13 @@ const KonnaAgenda = () => {
                 Connect to buyers and suppliers
               </h1>
               <p className='mb-5 text-gray-700 text-xs'>
-                Reach out to thousands of 
-                customers every day and manage your
+                Reach out to thousands of customers every day and manage your
                 suppliers in a hassle-free way
               </p>
             </div>
           </div>
           <div className='flex justify-evenly'>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -45,7 +47,7 @@ const KonnaAgenda = () => {
         </Flex>
         <Flex className='sm:flex justify-between item-center lg:space-x-10'>
           <div className='flex '>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -57,7 +59,7 @@ const KonnaAgenda = () => {
             </div>
           </div>
           <div className='flex '>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -71,7 +73,7 @@ const KonnaAgenda = () => {
         </Flex>
         <Flex className='sm:flex justify-between item-center lg:space-x-10'>
           <div className='flex '>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -83,7 +85,7 @@ const KonnaAgenda = () => {
             </div>
           </div>
           <div className='flex '>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -97,7 +99,7 @@ const KonnaAgenda = () => {
         </Flex>
         <Flex className='sm:flex justify-between item-center lg:space-x-10'>
           <div className='flex '>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
@@ -109,7 +111,7 @@ const KonnaAgenda = () => {
             </div>
           </div>
           <div className='flex '>
-            <span className='xs:hidden sm:block text-blue-500 '>
+            <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
             <div className='flex-col'>
