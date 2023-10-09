@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsChevronDown } from 'react-icons/bs'
 import Card from '../UI/Cards'
-import styles from './SecondList.module.css'
+// import styles from './SecondList.module.css'
 
 const SecondList = () => {
   return (

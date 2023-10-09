@@ -16,7 +16,7 @@ const KonnaAgenda = () => {
       '
       >
         <Flex className='sm:flex justify-evenly  lg:space-x-10'>
-          <div className='flex'>
+          <div className='flex  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -30,7 +30,7 @@ const KonnaAgenda = () => {
               </p>
             </div>
           </div>
-          <div className='flex justify-evenly'>
+          <div className='flex justify-evenly  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -46,7 +46,7 @@ const KonnaAgenda = () => {
           </div>
         </Flex>
         <Flex className='sm:flex justify-between item-center lg:space-x-10'>
-          <div className='flex '>
+          <div className='flex  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -58,7 +58,7 @@ const KonnaAgenda = () => {
               </p>
             </div>
           </div>
-          <div className='flex '>
+          <div className='flex  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -72,7 +72,7 @@ const KonnaAgenda = () => {
           </div>
         </Flex>
         <Flex className='sm:flex justify-between item-center lg:space-x-10'>
-          <div className='flex '>
+          <div className='flex  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -84,7 +84,7 @@ const KonnaAgenda = () => {
               </p>
             </div>
           </div>
-          <div className='flex '>
+          <div className='flex  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -98,7 +98,7 @@ const KonnaAgenda = () => {
           </div>
         </Flex>
         <Flex className='sm:flex justify-between item-center lg:space-x-10'>
-          <div className='flex '>
+          <div className='flex  px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>
@@ -110,7 +110,7 @@ const KonnaAgenda = () => {
               </p>
             </div>
           </div>
-          <div className='flex '>
+          <div className='flex px-3'>
             <span className='sm:block text-blue-500 '>
               <BsFillCheckCircleFill />
             </span>

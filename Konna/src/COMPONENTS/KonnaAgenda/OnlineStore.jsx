@@ -6,7 +6,7 @@ import Flex from '../UI/Flex'
 const OnlineStore = () => {
   return (
     <>
-      <Flex className='container mx-auto mt-12  items-center justify-evenly md:space-x-12 '>
+      <Flex className='container mx-auto mt-12 px-4 items-center justify-evenly md:space-x-12 '>
         <div className='bg-blueCardBg rounded-t container mx-auto flex-grow-0 mb-3 sm:w-3/5 md:w-full '>
           <div className='sm:translate-y-4 md:translate-y-7/20 lg:translate-y-1/10'>
             <img src={ComponentImage} alt='' />

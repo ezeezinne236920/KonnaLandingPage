@@ -27,7 +27,7 @@ export const Map = (props) => {
 }
 export const MapSideNav = (props) => {
   return (
-    <ul className='md:flex flex-col items-center justify-between   w-full   mx-auto mt-3'>
+    <ul className='md:flex flex-col items-center justify-between   w-full h-4/5 mx-auto mt-3'>
       {props.list.map((item, index) => {
         const { name, icons, title, desc } = item || {}
         return (
@@ -38,6 +38,7 @@ export const MapSideNav = (props) => {
             >
               {name} <span className='mt-0.5'>{icons}</span>
             </a>
+            
           </li>
         )
       })}

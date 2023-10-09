@@ -11,7 +11,7 @@ const SeamlessBusiness = ({ isOnMobile }) => {
       <div className='flex-col w-3/5 container mx-auto   mt-10  items-center min-h-[40%]'>
         <div
           className={`${
-            isOnMobile ? '' : 'mt-4/5'
+            isOnMobile ? '' : ' '
           } sm:ml-0  container mx-auto text-center`}
         >
           <h1 className='sm:text-base md:text-5xl '>
@@ -35,6 +35,7 @@ const SeamlessBusiness = ({ isOnMobile }) => {
         <div className='  md:w-4/5 container mx-auto mb-[-3rem] '>
           <AssetPicture />
         </div>
+        4
       </div>
       <Card className='rounded-none min-h-[80%] w-full sm:mx-0 xs:p-0 justify-center p-8 md:mx-15 pr-3'>
         <Flex className='justify-between mx-auto  text-center p-5'>

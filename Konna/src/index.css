@@ -25,4 +25,9 @@ li {
   list-style: none;
 }
 
- 
+ /* NavBar.css */
+
+.custom-min-height {
+  min-height: 50%;
+}
+

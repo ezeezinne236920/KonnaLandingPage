@@ -8,5 +8,4 @@ const Flex = (props) => {
   return <div className={cardClasses}>{children}</div>
 }
 
-
 export default Flex

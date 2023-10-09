@@ -8,7 +8,7 @@ import { BsFillCheckCircleFill } from 'react-icons/bs'
 const MultiplePayment = () => {
   return (
     <>
-      <div className='mx-auto bg-gray-800 w-screen pb-9  overflow-hidden my-1/10 '>
+      <div className='mx-auto bg-gray-800 w-screen pb-9 px-4 overflow-hidden my-1/10 '>
         <Flex className='container mx-auto mt-12 justify-between items-center md:space-x-11'>
           <div className='container mx-auto my-4 '>
             <img src={GroupImage} alt='' />
