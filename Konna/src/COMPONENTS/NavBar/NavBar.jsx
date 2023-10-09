@@ -31,7 +31,7 @@ const NavBar = () => {
         {isOnMobile ? (
           ''
         ) : (
-          <div className='absolute bg-blueBgColor flex flex-col items-center self-end top-8 flex py-3  mt-6 space-y-6 font-bold  w-auto sm:self-center left-6 right-6 drop-shadow-md lg:hidden '>
+          <div className='absolute  bg-blueBgColor flex flex-col items-center self-end top-8  py-3  mt-6 space-y-6 font-bold h-[400px] w-auto sm:self-center left-6 right-6 drop-shadow-md lg:hidden'>
             <MapSideNav className=' ' list={FirstListData} />
           </div>
         )}

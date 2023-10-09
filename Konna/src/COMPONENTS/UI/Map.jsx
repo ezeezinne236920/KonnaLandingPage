@@ -27,18 +27,17 @@ export const Map = (props) => {
 }
 export const MapSideNav = (props) => {
   return (
-    <ul className='md:flex flex-col items-center justify-between   w-full h-4/5 mx-auto mt-3'>
+    <ul className='md:flex flex-col items-center justify-between   w-full mx-auto mt-3'>
       {props.list.map((item, index) => {
         const { name, icons, title, desc } = item || {}
         return (
           <li key={index}>
             <a
               href={`#${name.toLowerCase()}`}
-              className='flex py-2 border-b mx-auto'
+              className='flex py-2 border-b border-slate-700 mx-auto mb-5'
             >
               {name} <span className='mt-0.5'>{icons}</span>
             </a>
-            
           </li>
         )
       })}
